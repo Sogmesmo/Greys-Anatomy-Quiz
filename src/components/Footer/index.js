@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-   background-color: ${({ theme }) => theme.colors.primary};
+   background-color: ${({ theme }) => theme.colors.mainBg};
   padding: 20px;
   display: flex;
   align-items: center;
